@@ -39,4 +39,8 @@ class Song
   def self.alphabetical
     @@all.sort_by{|song| song.name}
   end
+
+  def self.destory_all
+    @@all.clear
+  end
 end
