@@ -16,4 +16,8 @@ class Song
     newsong
   end
 
+  def self.new_by_name(song)
+    
+  end
+
 end
